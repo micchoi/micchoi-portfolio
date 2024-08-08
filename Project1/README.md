@@ -1,4 +1,4 @@
-# Data Analysis 2: Analyzing Energy Consumption in the US
+# Project 1: Analyzing Energy Consumption in the US
 
 ## Background
 Energy plays a crucial role in economic growth in modern economies, with individuals and organizations relying on various energy sources to sustain their businesses. The energy sector, particularly electricity, significantly impacts economic development. This impact is seen in improved labor and capital productivity from a reliable energy sector and the consumption of electricity serving as an indicator of a healthy economy in developing countries.
