@@ -30,11 +30,13 @@ The datasets used in this study are as follows:
    - **Purpose**: Investigates the impact of demographic changes on energy consumption in various sectors.
 
 ### Files
-- `Energy_Dynamics_US_Sector_Analysis.ipynb`: Jupyter Notebook with the analysis.
+- `Energy_Dynamics_US_Sector_Analysis.ipynb`: Jupyter Notebook with the analysis and code for the project.
 - `Energy Consumption_r.csv`: Contains monthly energy consumption data by sector.
 - `GDP-data.csv`: Contains quarterly GDP data.
 - `population-data.csv`: Contains monthly population data.
-
+- `Report.pdf`: A PDF report summarizing the analysis and findings.
+- `activate.R`: Script to activate the `renv` environment for reproducibility.
+- `renv.lock`: Lock file that records the state of the project's dependencies for reproducibility.
 
 ## Dependencies
 
@@ -44,18 +46,10 @@ To ensure that others can reproduce the results of this analysis, we use `renv` 
     Cloning the repository creates a local copy of the project on your machine, including all files and the directory structure. This ensures you have the exact same setup for reproducibility:
     ```sh
     git clone https://github.com/micchoi/micchoi-portfolio.git
-    cd portfolio/Project1  # Navigate to the desired project directory
+    cd micchoi-portfolio/Project1  # Navigate to the desired project directory
     ```
 
-2. **Restore the renv Environment**:
-    In your R console or RStudio, run:
-    ```r
-    library(renv)
-    renv::restore()
-    ```
-    This command will read the `renv.lock` file and install the required package versions to match the environment used for this analysis.
-
-3. **Open the Jupyter Notebook**:
+2. **Open the Jupyter Notebook**:
     You can open the notebook in any IDE that supports Jupyter Notebooks, such as Jupyter, JupyterLab, VS Code, PyCharm, etc. For example, to open it in Jupyter:
     ```sh
     jupyter notebook Energy_Dynamics_US_Sector_Analysis.ipynb
@@ -65,6 +59,14 @@ To ensure that others can reproduce the results of this analysis, we use `renv` 
     ```sh
     jupyter lab Energy_Dynamics_US_Sector_Analysis.ipynb
     ```
+
+3. **Restore the `renv` Environment and Run the Notebook Cells**:
+    In the Jupyter Notebook, run the first few cells that include:
+    ```r
+    library(renv)
+    renv::restore()
+    ```
+    This command will read the `renv.lock` file and install the required package versions to match the environment used for this analysis. Continue running the remaining cells sequentially to complete the analysis.
 
 4. **Run the Notebook Cells**:
     In the Jupyter Notebook, run the cells sequentially. The notebook already contains `library(renv)` and `renv::restore()` calls to set up the R environment as defined by the `renv.lock` file.
