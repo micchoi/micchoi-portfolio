@@ -1,7 +1,8 @@
 # Project 1: Analyzing Energy Consumption in the US
 
-## Background
-Energy plays a crucial role in economic growth in modern economies, with individuals and organizations relying on various energy sources to sustain their businesses. The energy sector, particularly electricity, significantly impacts economic development. This impact is seen in improved labor and capital productivity from a reliable energy sector and the consumption of electricity serving as an indicator of a healthy economy in developing countries.
+## Introduction
+Energy consumption is a critical component of economic activity and environmental sustainability. Over the past few decades, the United States has experienced significant changes in energy usage across the residential, commercial, and industrial sectors, driven by economic growth, technological advancements, and demographic shifts. Understanding these patterns is essential for effective policy formulation and energy management. This study examines U.S. energy consumption from 1973 to 2022, focusing on trends, seasonality, and volatility, and exploring the relationships with GDP and population growth. The insights gained will aid policymakers, analysts, and economists in forecasting energy demand and improving resource management.
+
 
 ## Objective
 This study aims to examine the properties of energy consumption in the US from 1973 to 2022, exploring the following questions:
