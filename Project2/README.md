@@ -33,6 +33,7 @@ To run the EDA or Modeling notebooks, follow these steps:
    ```bash
    git clone https://github.com/micchoi/micchoi-portfolio.git
 2. **Install Dependencies**
+   ```bash
    pip install -r requirements_eda.txt
    pip install -r requirements_modeling.txt
 4. **Run the Notebooks**
