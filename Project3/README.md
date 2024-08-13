@@ -45,9 +45,35 @@ The final Random Forest model identified the following as the most important pre
 ## Conclusion
 This project demonstrates the application of advanced machine learning techniques in predicting loan defaults. The resulting model provides banks with a powerful tool for risk assessment, leveraging critical borrower information to make more informed lending decisions.
 
-## How to Run the Project
-1. **Clone the repository**: Clone this repository to your local machine.
-2. **Install necessary packages**: Ensure you have all required R packages installed.
-3. **Run the analysis**: Execute the `.Rmd` files in the order provided (`EDA.Rmd` first, followed by `model_pipeline_final.Rmd`) to reproduce the analysis and results.
+## Dependencies
+
+To ensure that others can reproduce the results of this analysis, we use `renv` for package management. Follow the steps below to set up your environment:
+
+1. **Clone the Repository**:
+    Cloning the repository creates a local copy of the project on your machine, including all files and the directory structure. This ensures you have the exact same setup for reproducibility:
+    ```sh
+    git clone https://github.com/micchoi/micchoi-portfolio.git
+    cd micchoi-portfolio/Project1  # Navigate to the desired project directory
+    ```
+
+2. **Restore the `renv` Environment**:
+    Use `renv` to restore the project environment to the state captured in the `renv.lock` file. This ensures that all necessary packages and their correct versions are installed:
+    ```r
+    library(renv)
+    renv::restore()
+    ```
+
+    This command will install the required package versions to match the environment used for this analysis.
+
+3. **Run the R Markdown Files**:
+    After restoring the environment, open the `.Rmd` files (e.g., `EDA.Rmd` and `model_pipeline_final.Rmd`) in your preferred R IDE (such as RStudio) and run them to reproduce the analysis. Make sure to run them in the order specified in the workflow section.
+
+    Alternatively, you can knit the `.Rmd` files directly to generate the output documents:
+    ```r
+    rmarkdown::render("EDA.Rmd")
+    rmarkdown::render("model_pipeline_final.Rmd")
+    ```
+
+By following these steps, you will set up the same environment used in the project, ensuring consistent and reproducible results.
 
 
