@@ -1,32 +1,37 @@
-# Choi Portfolio
+# 최봉준 포트폴리오
 
-## Introduction
-Hello and welcome to my portfolio!
+## 소개
+안녕하세요, 제 포트폴리오에 오신 것을 환영합니다!
 
-I am excited to share my work in data analysis with you. This portfolio includes a selection of projects that illustrate my skills in data gathering, wrangling, exploration, statistical analysis, visualization, and presentation.
+이 포트폴리오에서는 제가 수행한 다양한 데이터 분석 프로젝트를 소개합니다. 데이터 수집, 전처리, 탐색적 분석, 통계 분석, 시각화, 그리고 결과 발표에 이르는 전 과정에서 저의 역량을 보여드리고자 합니다. 저의 분석 여정과 프로젝트를 통해 실질적인 인사이트를 도출하고, 이를 전략적 의사 결정에 어떻게 활용했는지 확인하실 수 있습니다.
 
-In the sections below, I will introduce myself and provide guidance on how to explore the projects within this portfolio. Let’s get started!
+아래에서 저의 학업 및 경력 배경에 대한 간략한 소개와 함께 포트폴리오를 탐색하는 방법을 안내해 드리겠습니다.
 
-## About Me & My Data Journey
-I recently graduated with a Master of Science in Analytics from Georgia Tech, where I developed a comprehensive understanding of data analysis, from data collection and cleaning to modeling and reporting. My academic experience has been instrumental in refining my analytical skills and equipping me to tackle complex data challenges effectively.
+## 저의 데이터 여정
+Georgia Institute of Technology 에서 데이터 분석 석사 학위를 취득하면서, 데이터의 전 과정(수집, 처리, 모델링, 리포팅)을 다루었습니다. 이 과정에서 데이터 문제 해결에 필요한 실무 능력을 다듬고 복잡한 문제를 해결할 수 있는 자신감을 얻게 되었습니다.
 
-My passion for data began during my undergraduate studies at the University of California, Davis, where I earned my Bachelor of Science in Statistics. I was captivated by the power of data and its ability to inform decision-making and drive impactful outcomes. This interest grew stronger as I engaged in various projects and coursework, where I honed my skills in statistics, programming, and data analysis.
+데이터에 대한 저의 열정은 University of California, Davis 에서 통계학 학사 학위를 받으며 시작되었습니다. 데이터를 통해 의사 결정을 돕고, 실질적인 성과를 이끌어내는 힘에 매료되었으며, 다양한 프로젝트와 수업을 통해 통계, 프로그래밍 및 데이터 분석 능력을 발전시킬 수 있었습니다.
 
+## 주요 프로젝트
 
-This portfolio presents a variety of my work, showcasing projects that reflect my ability to turn data into actionable insights and contribute to strategic decisions.
+### GaTech Projects
+Georgia Tech 에서 수행한 세 가지 주요 프로젝트는 **"GaTech Projects"** 폴더에 담겨 있습니다.
 
-## How to Navigate This Portfolio
+### ClarityAI Project
+**"ClarityAI"** 폴더에는 Georgia Tech 스폰서 기업인 ClarityAI와 함께 진행한 프로젝트가 포함되어 있습니다. 이 프로젝트는 실제 기업 데이터를 다루며, 의미 있는 인사이트를 도출하고 이를 바탕으로 실무적인 분석을 수행한 경험을 담고 있습니다.
 
-To explore the projects in my portfolio, I recommend the following steps:
+### Customer Analytics
+**"Customer Analytics"** 폴더에는 고객 행동과 마케팅 분석에 관한 프로젝트들이 있습니다. 현재는 **AB Testing** 프로젝트가 완료되어 있으며, 앞으로 **Funnel Analysis**, **Cohort Analysis**, **Segmentation** 프로젝트도 추가될 예정입니다.
 
-1. **Start with the README.md files**: Each project has its own README.md file where you will find an overview of the project, the tools and techniques used, outcomes, and instructions for running each project. This will give you an understanding of the scope and impact of each project.
+## 포트폴리오 탐색 가이드
+제 포트폴리오를 효과적으로 탐색하는 방법을 안내해 드립니다:
 
-2. **Explore the code and notebooks**: Within each project folder, you will find Jupyter Notebooks, R scripts, or Python scripts that contain the code used for the analysis. Reviewing these files will provide insight into my coding practices and analytical processes.
+1. **README.md 파일 확인**: 각 프로젝트 폴더에 README.md 파일이 있어, 프로젝트 개요, 사용 도구, 분석 방법, 그리고 결과를 간단히 설명하고 있습니다.
+   
+2. **코드와 노트북 탐색**: 프로젝트 폴더 내에서 Jupyter 노트북, R 스크립트, 또는 Python 스크립트를 통해 실제 분석 과정과 코드를 확인하실 수 있습니다.
+   
+3. **코드 실행**: 분석을 직접 확인하고 싶으시다면, 이 저장소를 클론해 Jupyter 노트북이나 Python/R 스크립트를 실행해 보실 수 있습니다.
 
-3. **Run the code**: If you want to see the analyses in action, you can clone this repository to your local machine and run the Jupyter Notebooks or Python scripts or R scripts.
+4. **결과 검토**: 각 프로젝트에 포함된 시각화와 결과를 통해, 분석 과정에서 도출된 인사이트를 확인하실 수 있습니다.
 
-4. **Review the results**: Each project includes visualizations, results, and conclusions.
-
----
-
-Thank you for visiting my portfolio!
+포트폴리오를 방문해 주셔서 감사합니다!
