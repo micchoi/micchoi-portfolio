@@ -15,7 +15,7 @@ Georgia Institute of Technology 에서 데이터 분석 석사 학위를 취득�
 ## 주요 프로젝트
 
 ### GaTech Projects
-Georgia Tech 에서 수행한 세 가지 주요 프로젝트는 **"GaTech Projects"** 폴더에 담겨 있습니다.
+Georgia Tech 에서 수행한 일부 프로젝트들은 **"GaTech Projects"** 폴더에 담겨 있습니다.
 
 ### ClarityAI Project
 **"ClarityAI"** 폴더에는 Georgia Tech 스폰서 기업인 ClarityAI와 함께 진행한 프로젝트가 포함되어 있습니다. 이 프로젝트는 실제 기업 데이터를 다루며, 의미 있는 인사이트를 도출하고 이를 바탕으로 실무적인 분석을 수행한 경험을 담고 있습니다.
